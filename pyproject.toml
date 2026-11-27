@@ -1,0 +1,13 @@
+[project]
+name = "cart-app"
+version = "0.1.0"
+description = "Test-first shopping cart pricing module (QA portfolio project)"
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-ra"
